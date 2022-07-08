@@ -1,0 +1,41 @@
+body{
+    background-color:red;
+}
+.port-header{
+    text-align:center;
+}
+#movies-pic{
+    width:100%;
+}
+.proj-header{
+    text-align:center;
+    font-weight:bold;
+}
+#proj-btn{
+    text-align:center;
+}
+.tech-stack{
+    text-align:center;
+    font-weight:bold;
+}
+.stack-icons{
+    text-align:center;
+    font-size:2.2rem;
+}
+#js-icon:hover{
+    color:#face30;
+}
+#css-icon:hover{
+    color:rgb(70, 70, 218);
+}
+#html-icon:hover{
+    color:rgb(230, 90, 40)
+}
+#proj-btn a:hover{
+    background:white;
+    color:black;
+    border:black;
+}
+.about-header{
+    text-align:center;
+}

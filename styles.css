@@ -1,0 +1,272 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#navLink{
+    color:#ffff;
+    font-size:1.2rem;
+    font-weight:700;
+  /* font-size: 14px; */
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #031D44;
+  padding: 20px 0px;
+  margin: 0px 20px;
+  display: inline-block;
+  position: relative;
+
+}
+#navLink:hover{
+  opacity: 1;
+}
+#navLink::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: #031D44;
+}
+#nav-brand{
+    color:#031D44;
+}
+#navLink::before {
+  width: 0%;
+  bottom: 10px;
+}
+
+#navLink:hover::before {
+  width: 100%;
+}
+#nav-brand{
+    font-size: 2rem;
+    color:#ffff;
+    font-weight:200;
+}
+
+
+#bg-image{
+    background-image:  url('./bg-pic.jpg') ;
+    height:100vh;
+    background-size:cover;
+      background-color: rgba(141, 137, 137, 0.3);
+  background-blend-mode: overlay;
+    opacity:0.8;
+    overflow:hidden;
+    position:relative;
+}
+.container-fluid{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    position:absolute;
+    height:100vh;
+}
+
+.hero-txt{
+    position:relative;
+    font-size:2.5rem;
+    color:#ffff;
+    font-weight:400;
+    opacity:1;
+    
+
+}
+.hero-txt .option{
+    margin-left:15px;
+    height:90px;
+    line-height:90px;
+    overflow:hidden;
+}
+.option li{
+    list-style:none;
+    color: #face30;
+    font-weight:500;
+    position:relative;
+    top:0;
+    animation: slide 12s steps(4) infinite;
+}
+@keyframes slide{
+    100%{
+        top:-360px;
+    }
+}
+.option li span{
+    position:relative;
+    margin: 5px 0;
+    line-height:90px;
+}
+.option li span::after{
+    content:'';
+    position:absolute;
+    left: 0;
+    width:100%;
+    height:100%;
+    background:transparent;
+    border-left: 2px solid #face30;
+    animation: typing 3s steps(10) infinite;
+
+}
+@keyframes typing{
+    40%,60%
+    {
+        left: calc(100% + 30px)
+    }
+    100%{
+        left: 0;
+    }
+}
+.about-text{
+    text-align:center;
+    padding-right:2rem;
+    margin-top:2rem;
+    margin-right:12rem;
+}
+.about-pic{
+    height:400px;
+    width:400px;
+    border-radius:50%;
+    padding-left:2rem;
+    margin-left:2rem;
+}
+.services-header{
+    text-align:center;
+}
+.serviceText p{
+    text-align:center;
+
+}
+.servicesText:hover
+{
+    height: 200px;
+    border:3px solid #031D44 ;
+}
+.serviceText h5:hover{
+    color:rgb(13, 133, 13);
+}
+i:hover{
+    color:rgb(13, 133, 13);
+}
+.port-header{
+    text-align:center;
+}
+#movies-pic{
+    width:100%;
+    overflow:hidden;
+    
+}
+.proj-header{
+    text-align:center;
+    font-weight:bold;
+}
+#proj-btn{
+    text-align:center;
+}
+.tech-stack{
+    text-align:center;
+    font-weight:bold;
+}
+.stack-icons{
+    text-align:center;
+    font-size:2.2rem;
+}
+#js-icon:hover{
+    color:#face30;
+}
+#css-icon:hover{
+    color:rgb(70, 70, 218);
+}
+#html-icon:hover{
+    color:rgb(230, 90, 40)
+}
+#proj-btn a:hover{
+    background:white;
+    color:black;
+    border:black;
+}
+.about-header{
+    text-align:center;
+}
+.card-1{
+    margin-left:3rem;
+
+}
+.card-2{
+    margin-left:5rem;
+}
+.library-pic{
+    width:100%;
+    overflow:hidden;
+}
+#bootstrap-icon:hover{
+    color:rgb(132, 15, 161);
+
+}
+
+.card-3{
+    margin-left:4rem;
+    margin-top:2rem;
+}
+.todos-pic{
+    width:100%;
+    overflow:hidden;
+}
+.card-4{
+    margin-left:5rem;
+    margin-top:2.5rem;
+}
+.quiz-pic{
+    width:100%;
+    overflow:hidden;
+}
+footer{
+    background-color:#031D44;
+    color:#ffff;
+    padding-bottom:1.5rem;
+}
+.foot-heading{
+    margin-top:3rem;
+    padding-top:2rem;
+    font-size:2rem;
+    text-align:center;
+}
+hr{
+    font-weight:2rem;
+}
+.social-icons{
+    text-align:center;
+    margin:2rem;
+    font-size:2rem;
+    
+    
+}
+.gh-icon{
+    margin:2rem;
+}
+.gh-icon:hover{
+    color:#ffff;
+}
+.ig-icon{
+    margin:2rem;
+}
+.ig-icon:hover{
+    color:#ffff;
+}
+.twt-icon{
+    margin:2rem;
+}
+.twt-icon:hover{
+    color:#ffff;
+}
+.linked-icon{
+    margin:2rem;
+}
+.linked-icon:hover{
+    color:#ffff;
+}
+.twitch-icon{
+    margin:2rem;
+}
+.button-sub{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
